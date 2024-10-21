@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: slategray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.box {
+    background-color: #fc3;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin: 3rem;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.translate{
+    transform: translate(10px, 10px);
+}
+.scale{
+    transform:scale(.8);
+}
+.rotate{
+    transform: rotate(50deg);
+}
+.skew{
+    transform: skew(20deg, 2deg)
+}
+.multiple{
+    transform: translate(20px,20px) ;
+    transform: scale(1.2);
+    transform: rotate(30deg);
+    transform: skew(25deg,3deg);            
+}
+
+.transition{
+    transition: margin-right 2s;
+}
